@@ -3,7 +3,7 @@ const TurnOff = document.getElementById ('TurnOff');
 const lamp = document.getElementById('lamp');
 
 function isLampBroken () {
-    return lamp.src.indexOf('quebrada') > -1
+    return lamp.src.indexOf('broken') > -1
 }
 
 function lampOn () {
@@ -16,7 +16,7 @@ function lampOff () {
     lamp.src = './img/lampada_apagada.jpg';
 }
 function lampBroken(){
-    lamp.src = './img/lampada_quebrada.jpg';
+    lamp.src = './img/lampadaquebrada.jpg';
 }
 
 TurnOn.addEventListener('click', lampOn);
