@@ -4,5 +4,6 @@ header, main{
         align-items: center;
 }
 button{
+    margin-top: 25px;
     width: 80px;
 }
